@@ -56,20 +56,17 @@ h1{
 	flex-flow: row wrap;
 }
 #secundaria>img{
-  height: 15em;
-  width: 40em;
+  box-shadow: 5px 5px 5px #82c3a6;
+  border: 2px;
+
 }
 #imgIz{
   order: 2;
-  box-shadow: 5px 5px 5px #82c3a6;
-  border: 2px;
-  width: 50%;
+width: 50%;
 }
 #imgDer{
   order: 3;
-  box-shadow: 5px 5px 5px #82c3a6;
-  border: 2px;
-  width: 50%;
+width: 50%;
 }
 #imgIz:hover{
   transform: rotate(10deg);
@@ -174,14 +171,16 @@ header{
 		width: 100%;
 		order: 4;
 	}
+  /*#secundaria>img{
+    {
+      width: 100%;
+    }*/
   #imgIz{
     order: 1;
-
     width: 100%;
   }
   #imgDer{
     order: 2;
-
     width: 100%;
   }
   #imgCentral{
