@@ -9,8 +9,9 @@ header{
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
   color: white;
-  display: flex;
-  flex-flow: row wrap;
+
+  display:flex;
+  flex-flow:row;
 
 }
 h1{
@@ -18,7 +19,7 @@ h1{
   text-align:center;
   text-shadow: 2px 2px #02010a;
   order: 2;
-  /*float: left;*/
+
 }
 
 .Menu{
@@ -29,7 +30,7 @@ h1{
 
   flex-direction: row;
   order: 3;
-  position: fixed;
+  position:absolute;
   right:0 ;
 
 }
